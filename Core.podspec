@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint Core.podspec' to ensure this is a
+# Be sure to run `pod lib lint Core2.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Core'
+  s.name             = 'Core2'
   s.version          = '0.1.0'
   s.summary          = 'Módulo responsável por realizar as chamadas de Network e Protocols.'
 
@@ -22,11 +22,11 @@ Módulo responsável por fazer as chamadas de Network e Protocols
 que serão usados como base para os projetos desenvolvidos.
                        DESC
 
-  s.homepage         = 'https://github.com/rbailoni/core'
+  s.homepage         = 'https://github.com/rbailoni/Core2'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ricardo Bailoni' => 'rbailoni@rbailoni.com.br' }
-  s.source           = { :git => 'https://github.com/rbailoni/core.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/rbailoni/Core2.git', :tag => s.version.to_s }
   s.social_media_url = 'https://linkedin.com/in/rbailoni'
 
   s.ios.deployment_target = '15.0'
@@ -44,7 +44,7 @@ que serão usados como base para os projetos desenvolvidos.
   end
   
   # s.resource_bundles = {
-  #   'Core' => ['Core/Assets/*.png']
+  #   'Core2' => ['Core2/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
