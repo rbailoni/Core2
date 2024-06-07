@@ -31,7 +31,7 @@ que serão usados como base para os projetos desenvolvidos.
 
   s.ios.deployment_target = '15.0'
   s.swift_version = '5.9'
-  s.source_files = 'Sources/Network/*.swift', 'Sources/Protocols/**/*.swift'
+  s.source_files = 'Sources/Network/**/*.swift', 'Sources/Protocols/**/*.swift'
   
   s.subspec 'Network' do |sp|
     sp.source_files = 'Sources/Network/**/*.swift'
